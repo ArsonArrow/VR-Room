@@ -499,20 +499,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2600c5b68a4436f4f92ed9180571883e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rayLength: 5
-  lineRenderer: {fileID: 0}
-  lineMaterial: {fileID: 2100000, guid: 5425eadc1bd60a84a88b0406260b111c, type: 2}
-  startPoint: {x: 0, y: 0, z: 0}
-  endPoint: {x: 0, y: 0, z: 0}
-  arcHeight: 2
-  arcPeakHeight: 2
-  arcSegments: 20
-  sineFrequency: 1
-  pointsAlongLine: []
-  travelSpeed: 1
-  isMoving: 0
-  moveAlongArcAction: {fileID: 0}
-  objectToMove: {fileID: 0}
 --- !u!1 &212206976
 GameObject:
   m_ObjectHideFlags: 0
@@ -929,6 +915,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509455771166866562, guid: 5529c2d5df46bfe4fa3dc337f2f9de86,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7950084682463679438, guid: 5529c2d5df46bfe4fa3dc337f2f9de86,
         type: 3}
@@ -3559,6 +3550,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6509455771166866562, guid: 5529c2d5df46bfe4fa3dc337f2f9de86,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7950084682463679438, guid: 5529c2d5df46bfe4fa3dc337f2f9de86,
         type: 3}
       propertyPath: m_Layer
@@ -4902,6 +4898,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6509455771166866562, guid: 5529c2d5df46bfe4fa3dc337f2f9de86,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7950084682463679438, guid: 5529c2d5df46bfe4fa3dc337f2f9de86,
         type: 3}
       propertyPath: m_Layer
@@ -6195,6 +6196,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509455771166866562, guid: 5529c2d5df46bfe4fa3dc337f2f9de86,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7950084682463679438, guid: 5529c2d5df46bfe4fa3dc337f2f9de86,
         type: 3}
